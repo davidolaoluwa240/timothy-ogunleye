@@ -18,8 +18,7 @@ export const Hero = () => {
     <SwiperSlide key={id}>
       <Image
         radius="none"
-        width={300}
-        height={290}
+        className="w-[300px] h-[250px] object-cover"
         src={image}
         alt={`Gallery Images ${id}`}
       />

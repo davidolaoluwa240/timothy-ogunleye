@@ -1,4 +1,7 @@
 // Images
+// ===========================================================================
+// ============================HERO IMAGES====================================
+// ===========================================================================
 import heroGallery1 from "../assets/images/hero_gallery_1.svg";
 import heroGallery2 from "../assets/images/hero_gallery_2.svg";
 import heroGallery3 from "../assets/images/hero_gallery_3.svg";
@@ -14,6 +17,16 @@ import heroGallery12 from "../assets/images/hero_gallery_12.svg";
 import heroGallery13 from "../assets/images/hero_gallery_13.svg";
 import heroGallery14 from "../assets/images/hero_gallery_14.svg";
 import heroGallery15 from "../assets/images/hero_gallery_15.svg";
+
+// ===========================================================================
+// ============================PAST EVENT IMAGES==============================
+// ===========================================================================
+import pastEventPic1 from "../assets/images/past-event-pic-1.jpg";
+import pastEventPic2 from "../assets/images/past-event-pic-2.jpg";
+import pastEventPic3 from "../assets/images/past-event-pic-3.jpg";
+import pastEventPic4 from "../assets/images/past-event-pic-4.jpg";
+import pastEventPic5 from "../assets/images/past-event-pic-5.jpg";
+import pastEventPic6 from "../assets/images/past-event-pic-6.jpg";
 
 // Navbar Items
 export const NAVBAR_ITEMS = [
@@ -151,5 +164,49 @@ export const INTERNATIONAL_ENGAGEMENT_ITEMS = [
       "A member of International Statistical Institute (ISI) directly with International Association for Statistical Computing (IASC)",
     to: "https://isi-web.org/our-members?country=NG&alphabet=O#scroll-to-form",
     tags: ["Member"],
+  },
+];
+
+// Youtube Embed Items
+export const YOUTUBE_EMBED_ITEMS = [
+  {
+    id: 1,
+    title:
+      "Full video clip on our Day 2 of Data Analytics with Python training conducted on 26th Sept., 2023.",
+    src: "https://www.youtube.com/embed/LgBCah6bPyo",
+  },
+  {
+    id: 2,
+    title:
+      "Day 3 of the virtual training on DATA ANALYTICS WITH PYTHON conducted on 28th September, 2023.",
+    src: "https://www.youtube.com/embed/1D0POdyqzLE",
+  },
+];
+
+// Past Event Picture Items
+export const PAST_EVENT_PICTURE_ITEMS = [
+  {
+    id: 1,
+    image: pastEventPic1,
+  },
+  {
+    id: 2,
+    image: pastEventPic2,
+  },
+  {
+    id: 3,
+    image: pastEventPic3,
+  },
+  {
+    id: 4,
+    image: pastEventPic4,
+  },
+  {
+    id: 5,
+    image: pastEventPic5,
+  },
+  {
+    id: 6,
+    image: pastEventPic6,
   },
 ];

@@ -5,6 +5,8 @@ import {
   Hero,
   SoftwareSkill,
   InternationalEngagement,
+  YoutubeEmbed,
+  PastEventPicture,
 } from "../../components";
 
 export const DefaultLayout = () => {
@@ -19,9 +21,12 @@ export const DefaultLayout = () => {
           <SoftwareSkill />
           <InternationalEngagement />
         </aside>
-        <main>{Outlet}</main>
-        <aside>
-          <SoftwareSkill />
+        <main>
+          <Outlet />
+        </main>
+        <aside className="flex flex-col gap-6">
+          <YoutubeEmbed />
+          <PastEventPicture />
         </aside>
       </div>
     </div>

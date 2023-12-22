@@ -33,6 +33,25 @@ import pastEventPic6 from "../assets/images/past-event-pic-6.jpg";
 // ===========================================================================
 import timothyImg from "../assets/images/timothy_img.svg";
 
+// ===========================================================================
+// ==================================PARTNER ITEMS============================
+// ===========================================================================
+import partner1 from "../assets/images/partner-1.svg";
+import partner2 from "../assets/images/partner-2.svg";
+import partner3 from "../assets/images/partner-3.svg";
+import partner4 from "../assets/images/partner-4.svg";
+import partner5 from "../assets/images/partner-5.svg";
+import partner6 from "../assets/images/partner-6.svg";
+import partner7 from "../assets/images/partner-7.svg";
+import partner8 from "../assets/images/partner-8.svg";
+import partner9 from "../assets/images/partner-9.svg";
+import partner10 from "../assets/images/partner-10.svg";
+import partner11 from "../assets/images/partner-11.svg";
+import partner12 from "../assets/images/partner-12.svg";
+import partner13 from "../assets/images/partner-13.svg";
+import partner14 from "../assets/images/partner-14.svg";
+import partner15 from "../assets/images/partner-15.svg";
+
 // Navbar Items
 export const NAVBAR_ITEMS = [
   {
@@ -338,5 +357,126 @@ export const PROFESSIONAL_QUALIFICATION_HISTORY_ITEMS = [
     university: "University of Lagos, the City of Akoka, Nigeria",
     degree: "Professional Diploma Certificate in Data Science Python",
     type: "PROFESSIONAL DIPLOMA",
+  },
+];
+
+// Contact Items
+export const CONTACT_ITEMS = [
+  {
+    id: 1,
+    title: "Postal Address",
+    content:
+      "Room 203, CHS Intercollegiate Building, Department of Statistics, Faculty of Pure and Applied Sciences, College of Science, Engineering and Technology, Osun State University, Osogbo, Nigeria.",
+  },
+  {
+    id: 2,
+    title: "Institutional Email",
+    content: "timothy.ogunleye@uniosun.edu.ng",
+    type: "email",
+  },
+  {
+    id: 3,
+    title: "Personal Email",
+    content: "thompsondx@gmail.com",
+    type: "email",
+  },
+  {
+    id: 4,
+    title: "Tim-R Email",
+    content: "tim.rprogramming@gmail.com, info@tim-rprogramming.com",
+    type: "email",
+  },
+  {
+    id: 5,
+    title: "Osun RUG Email",
+    content: "osunrug@gmail.com",
+    type: "email",
+  },
+  {
+    id: 6,
+    title: "WhatsApp Number",
+    content: "+2348068998580",
+    type: "phone",
+  },
+];
+
+// Partner Items
+export const PARTNER_ITEMS = [
+  {
+    id: 1,
+    title: "Osun R User Group",
+    image: partner1,
+  },
+  {
+    id: 2,
+    title: "Tim R Programming Consult Nigeria",
+    image: partner2,
+  },
+  {
+    id: 3,
+    title: "Python language",
+    image: partner3,
+  },
+  {
+    id: 4,
+    title: "R language",
+    image: partner4,
+  },
+  {
+    id: 5,
+    title: "R Corsortium",
+    image: partner5,
+  },
+  {
+    id: 6,
+    title: "R language",
+    image: partner6,
+  },
+  {
+    id: 7,
+    title: "R Studio",
+    image: partner7,
+  },
+  {
+    id: 8,
+    title: "RSE",
+    image: partner8,
+  },
+  {
+    id: 9,
+    title: "University Of Lagos",
+    image: partner9,
+  },
+  {
+    id: 10,
+    title: "Osun State Polytechnic, Iree, Osun State",
+    image: partner10,
+  },
+  {
+    id: 11,
+    title: "Recon",
+    image: partner11,
+  },
+  {
+    id: 12,
+    title:
+      "International Association For Statistical Computing African Members Group",
+    image: partner12,
+  },
+  {
+    id: 13,
+    title:
+      "International Association For Statistical Computing African Members Group",
+    image: partner13,
+  },
+  {
+    id: 14,
+    title: "Osun State University",
+    image: partner14,
+  },
+  {
+    id: 15,
+    title: "R Hub",
+    image: partner15,
   },
 ];

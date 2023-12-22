@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 // Components
 import { NextUIProvider } from "@nextui-org/react";
 import { BrowserRouter } from "react-router-dom";
-import { App } from "./App";
+import { App } from "./app/app.component";
 
 // Styles
 import "./main.css";

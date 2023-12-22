@@ -2,10 +2,10 @@
 import { Route, Routes } from "react-router-dom";
 
 // Pages
-import { About } from "./pages";
+import { About } from "../pages";
 
 // Layouts
-import { DefaultLayout } from "./layouts";
+import { DefaultLayout } from "../layouts";
 
 export const App = () => {
   return (

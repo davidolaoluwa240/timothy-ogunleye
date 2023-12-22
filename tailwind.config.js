@@ -13,11 +13,13 @@ export default {
         white: {
           DEFAULT: "#ffffff",
           100: "#f9f9f9",
+          200: "#F6EDED",
         },
         black: {
           DEFAULT: "#000000",
           100: "#2D2D35",
           200: "#8A8A8A",
+          300: "#3e3e3e",
         },
       },
       fontFamily: {

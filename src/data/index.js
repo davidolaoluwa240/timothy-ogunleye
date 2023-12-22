@@ -28,6 +28,11 @@ import pastEventPic4 from "../assets/images/past-event-pic-4.jpg";
 import pastEventPic5 from "../assets/images/past-event-pic-5.jpg";
 import pastEventPic6 from "../assets/images/past-event-pic-6.jpg";
 
+// ===========================================================================
+// ==================================ABOUT====================================
+// ===========================================================================
+import timothyImg from "../assets/images/timothy_img.svg";
+
 // Navbar Items
 export const NAVBAR_ITEMS = [
   {
@@ -208,5 +213,130 @@ export const PAST_EVENT_PICTURE_ITEMS = [
   {
     id: 6,
     image: pastEventPic6,
+  },
+];
+
+// Past Event Items
+export const PAST_EVENT_ITEMS = [
+  {
+    id: 1,
+    title: "Educational and Professional Development",
+    description:
+      "Undertook formal education and training in data analysis, programming, and statistics. This has been achieved through the two non-profit, non-governmental organizations which are under my control.",
+  },
+  {
+    id: 2,
+    title: "Career Milestones",
+    description:
+      "Developed and honed their skills through practical applications, such as conducting complex statistical analyses, building data visualizations, and handling data mining tasks.",
+  },
+  {
+    id: 3,
+    title: "Statistical Skills",
+    description:
+      "Contributed to or led projects involving data analysis, statistical modeling, and database management for organizations. This included developing and implementing efficient data retrieval processes and imparting knowledge to others.",
+  },
+];
+
+// Future Event Items
+export const FUTURE_EVENT_ITEMS = [
+  {
+    id: 1,
+    title: "Advanced Projects and Research",
+    description:
+      "Engaging in more extensive and intricate data analysis and manipulation projects, such as working with big data, AI, or machine learning applications.",
+  },
+  {
+    id: 2,
+    title: "Leadership Roles",
+    description:
+      "Progressing into leadership positions where I can guide projects and teams, leverage skills in project management, and lead data-driven initiatives within organizations.",
+  },
+  {
+    id: 3,
+    title: "Capacity Building and Training",
+    description:
+      "Expanding my roles in training and capacity building within several fields such as programming, monitoring and evaluation, and potentially contributing to educational programs, workshops, and consulting activities.",
+  },
+  {
+    id: 4,
+    title: "Expert Consultation",
+    description:
+      "Providing expert consultation in data analysis, statistical modeling, and database management for organizations or clients seeking advanced insights and solutions.",
+  },
+  {
+    id: 5,
+    title: "Specialized Research Areas",
+    description:
+      "Diving deeper into specialized areas within data science and statistical analysis such as biostatistics, morphometrics, and advanced machine learning applications.",
+  },
+];
+
+// About Timothy
+export const ABOUT_TIMOTHY = {
+  image: timothyImg,
+  descriptions: [
+    "Tim, as usually called by his friends, is seasoned statistician and visionary data scientist. Timothy combines a robust academic foundation, extensive industry experience, and a passion for advancing statistical computing within and outside the continent of Africa. His journey began at the prestigious University of Ilorin, Nigeria, where he bagged his first and second degrees in Statistics. His comprehensive expertise encompasses a profound understanding of Computational Statistics, Mathematical and Data Sciences, Machine Learning, Robotic Intelligence, and programming skills, establishing him as a respected authority in these fields of study.",
+    "Armed with a profound knowledge of statistical analysis and computational methods, Timothy is an expert in the use of R language, complemented by a strong command of SQL and Python programming languages. His dedication to expanding his skills led him to Department of Computing at Macquarie University, the City of Sydney, Australia, where he received official certification as an R and Python Programmer in the realm of Data Science. Tim also obtained Professional Diploma Certificate in Data Science with Python from the University of Lagos, Nigeria. These credentials attest to his unwavering commitment to mastering cutting-edge technologies and analytical tools within the data science landscape.",
+    "Timothy’s higher educational pursuits initially commenced at the Federal Polytechnic, Ede, Nigeria, where he earned both National Diploma (ND) and Higher National Diploma (HND) certificates in Statistics, laying a solid academic groundwork for his future accomplishments. Notably, he currently serves as the Secretary-General of the International Association for Statistical Computing, African Members Group (IASC-AMG), demonstrating his influential presence in the statistical community on an international level.",
+    "Boasting over 18 years of extensive experience spanning across industries and academia, Timothy has etched a distinguished career journey during which he has contributed significantly to both scholarly and professional domains. His intellectual prowess is reflected in his extensive publication record, comprising numerous academic papers that have made a noteworthy impact both locally and on the global stage. Furthermore, he is recognized for his profound expertise as a monitoring and evaluation (M&E) expert, showcasing an unparalleled aptitude for imparting knowledge as a distinguished educator and tutor.",
+    "In minding the significance of knowledge dissemination and community enrichment, Timothy takes on leadership roles as the coordinator of the Osun R User Group, Nigeria, and as the Chairman, Board of Trustees of Tim-R Programming Consult, Nigeria - two non-profit, non-governmental organizations dedicated to nurturing a thriving community of statisticians and data enthusiasts. His commitment to the advancement of statistical computing techniques is apparent, reflecting his profound passion for driving impactful change and sustainable progress within the statistical and data science domains.",
+    "With an inherent ability to grasp complex concepts swiftly and a proven aptitude for rapid assimilation, Timothy’s role as a lecturer at the Department of Statistics, Faculty of Basic and Applied Sciences, College of Science, Engineering and Technology (SET) at Osun State University, Osogbo, Nigeria, further underscores his commitment to excellence in education and his dedication to shaping the future generation of statistical and data science practitioners.",
+  ],
+};
+
+// Education History Items
+export const EDUCATION_HISTORY_ITEMS = [
+  {
+    id: 1,
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - Ongoing",
+    degree: "Doctor of Philosophy in Statistics",
+    type: "PhD",
+  },
+  {
+    id: 2,
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - 2014",
+    degree: "Master of Science in Statistics",
+    type: "M.Sc.",
+  },
+  {
+    id: 3,
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - 2011",
+    degree: "Bachelor of Science in Statistics",
+    type: "B.Sc.",
+  },
+  {
+    id: 4,
+    university: "Federal Polytechnic, Ede, Osun State, Nigeria - 2004",
+    degree: "Higher National Diploma in Statistics",
+    type: "HND",
+  },
+  {
+    id: 5,
+    university: "Federal Polytechnic, Ede, Osun State, Nigeria - 2001",
+    degree: "National Diploma in Statistics ",
+    type: "ND",
+  },
+  {
+    id: 6,
+    university: "Ogbaagba Community Grammar School, Ogbaagbaa",
+    degree: "Senior School Certificate ",
+    type: "SSC",
+  },
+];
+
+// Professional Quanlification History Items
+export const PROFESSIONAL_QUALIFICATION_HISTORY_ITEMS = [
+  {
+    id: 1,
+    university: "Macquarie University, the City of Sydney, Australia",
+    degree: "Diploma Certificate in Data Science with R and Python",
+    type: "EXECUTIVE DIPLOMA",
+  },
+  {
+    id: 2,
+    university: "University of Lagos, the City of Akoka, Nigeria",
+    degree: "Professional Diploma Certificate in Data Science Python",
+    type: "PROFESSIONAL DIPLOMA",
   },
 ];

@@ -7,6 +7,8 @@ import {
   InternationalEngagement,
   YoutubeEmbed,
   PastEventPicture,
+  PastEvent,
+  FutureEvent,
 } from "../../components";
 
 export const DefaultLayout = () => {
@@ -21,12 +23,16 @@ export const DefaultLayout = () => {
           <SoftwareSkill />
           <InternationalEngagement />
         </aside>
+
         <main>
           <Outlet />
         </main>
+
         <aside className="flex flex-col gap-6">
           <YoutubeEmbed />
           <PastEventPicture />
+          <PastEvent />
+          <FutureEvent />
         </aside>
       </div>
     </div>

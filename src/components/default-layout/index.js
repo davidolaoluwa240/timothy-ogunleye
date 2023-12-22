@@ -10,3 +10,5 @@ export * from "./youtube-embed/youtube-embed.component";
 export * from "./youtube-embed/youtube-embed-list/youtube-embed-list.component";
 export * from "./youtube-embed/youtube-embed-item/youtube-embed-item.component";
 export * from "./past-event-picture/past-event-picture.component";
+export * from "./past-event/past-event.component";
+export * from "./future-event/future-event.component";

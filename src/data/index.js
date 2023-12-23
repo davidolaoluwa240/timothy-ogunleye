@@ -34,7 +34,7 @@ import pastEventPic6 from "../assets/images/past-event-pic-6.jpg";
 import timothyImg from "../assets/images/timothy_img.svg";
 
 // ===========================================================================
-// ==================================PARTNER ITEMS============================
+// ==================================PARTNERS=================================
 // ===========================================================================
 import partner1 from "../assets/images/partner-1.svg";
 import partner2 from "../assets/images/partner-2.svg";
@@ -51,6 +51,19 @@ import partner12 from "../assets/images/partner-12.svg";
 import partner13 from "../assets/images/partner-13.svg";
 import partner14 from "../assets/images/partner-14.svg";
 import partner15 from "../assets/images/partner-15.svg";
+
+// ===========================================================================
+// ==============================TRAINING WEBINAR=============================
+// ===========================================================================
+import trainingWebinar1 from "../assets/images/training_webinar_1.svg";
+import trainingWebinar2 from "../assets/images/training_webinar_2.svg";
+import trainingWebinar3 from "../assets/images/training_webinar_3.svg";
+import trainingWebinar4 from "../assets/images/training_webinar_4.svg";
+import trainingWebinar5 from "../assets/images/training_webinar_5.svg";
+import trainingWebinar6 from "../assets/images/training_webinar_6.svg";
+import trainingWebinar7 from "../assets/images/training_webinar_7.svg";
+import trainingWebinar8 from "../assets/images/training_webinar_8.svg";
+import trainingWebinar9 from "../assets/images/training_webinar_9.svg";
 
 // Navbar Items
 export const NAVBAR_ITEMS = [
@@ -77,6 +90,11 @@ export const NAVBAR_ITEMS = [
         id: 2,
         name: "Research Gate",
         to: "https://www.researchgate.net/profile/Timothy-Ogunleye",
+      },
+      {
+        id: 3,
+        name: "Linkedin",
+        to: "https://www.linkedin.com/in/timothy-ogunleye/",
       },
     ],
   },
@@ -859,5 +877,63 @@ export const PUBLICATION_ITEMS = [
       'Ogunleye, T.A. (2020): The Fight against COVID-19 Pandemic in Nigeria: A situational analysis of the most affected zone. A paper presented at the 2nd African Symposium on Big Data Analytics and Machine Intelligence & 6th TYAN International Themantic Workshop held at the Federal University of Technology, Akure, Nigeria with the theme "Data Science for Solution-driven and Sustainable Response to current Developing World Challenge" between 3rd and 4th December.',
       "Ogunleye, T.A. & Arowoogun, M. (2019): Empirical investigation of factors responsible forstudents' academic performance in private universities, South-West Nigeria. A paper presented at the 30th Colloquium of the Nigerian Association of Mathematical Physics held at Igbinedion University, Okada, Edo State, Nigeria between 5th and 8th November.",
     ],
+  },
+];
+
+// Selected Training Webinar Items
+export const SELECTED_TRAINING_WEBINAR_ITEMS = [
+  {
+    id: 1,
+    image: trainingWebinar1,
+    content:
+      "This is a virtual training workshop recently conducted between 5th - 17th December, 2023. This training covers the following areas: Supervised Learning: Linear regression, Logistic regression, Decision trees, Random forests, Support vector machines (SVM), Naive Bayes, K-nearest neighbors (KNN), Gradient boosting, etc.Unsupervised Learning: Clustering algorithms (K-means, DBSCAN, hierarchical clustering), Dimensionality reduction techniques (PCA, t-SNE), Anomaly detection, Association rule mining (Apriori algorithm), Generative adversarial networks (GANs), Self-organizing maps (SOM), Latent Dirichlet Allocation (LDA), etc. Deep Learning: Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM), Generative models (Variational Autoencoders, Generative Adversarial Networks), Transformers for natural language processing (BERT, GPT), etc. Reinforcement Learning: Markov Decision Processes (MDP), Q-learning, Deep Q-Networks (DQN), Policy Gradient Methods (REINFORCE, Proximal Policy Optimization), Multi-Agent Reinforcement Learning (MARL), etc.",
+  },
+  {
+    id: 2,
+    image: trainingWebinar2,
+    content:
+      'This is another virtual training on the "CONCEPT OF STRUCTURAL EQUATION MODELLING (SEM) WITH SMARTPLS", which came up between Saturday, 25th November and Sunday, 26th November, 2023. The Structural Equation Modeling (SEM) is a statistical modeling technique used to analyze complex relationships between variables. It is a comprehensive approach that combines factor analysis, multiple regression analysis, and path analysis. SEM allows researchers to test and validate theoretical models by assessing the direct and indirect relationships among variables, including latent (unobserved) variables. SmartPLS is a software tool widely used for structural equation modeling. It provides a user-friendly interface that facilitates the estimation of complex statistical models, including path models, mediation models, and moderation models. SmartPLS uses a partial least squares (PLS) algorithm, which is well-suited for exploratory research and models with small sample sizes.',
+  },
+  {
+    id: 3,
+    image: trainingWebinar3,
+    content:
+      "This is another fantastic training conducted virtually between 3rd - 4th November, 2023 on the theme: Data Graphics and Visualization with Tableau: From Concepts to Creativity. The main objectives include introducing the basics of Tableau software, guiding users on how to connect to data sources, create visualizations, and format sheets; exploring various visualization types such as bar charts, line charts, scatter plots, maps, and heatmaps, enabling users to create compelling and interactive visualizations; engaging in hands-on projects to develop skills in creating dashboards using real-world datasets and enhancing storytelling capabilities.",
+  },
+  {
+    id: 4,
+    image: trainingWebinar4,
+    content:
+      "This is a physical training workshop with the use of Python for all and sundry. It’s a training thrown open to members of the population across Nigeria. It came up between 16th and 20th October, 2023. It was done in collaboration with the University of Lagos; participants were issued Professional Diploma Certificates in Data Science with Python.For further details about this training, visit the <a class='text-blue underline' href='' target='_blank'>link.</a>",
+  },
+  {
+    id: 5,
+    image: trainingWebinar5,
+    content:
+      'This is an online training tagged "Data Analytics with Python + Real Life Illustrations" which came up between Monday, 25th September and 7th October, 2023. The training covers the following topics: Introduction to Python: Introduction to programming concepts, Installing Python and setting up the development environment, Running Python scripts and interactive mode, Basic syntax, variables, and data types, Control flow statements (if-else, loops). Data Structures and Functions: String Manipulation, Numbers (Integers, Float, and Complex), Range, Boolean, Lists, Tuples, Sets and Dictionaries. Data Manipulation and Pre-processing: Importing and exporting data from various file formats (CSV, Excel, JSON, etc.). Cleaning and transforming data (handling missing values, data normalization, etc.). Feature engineering and data aggregation. Exploratory Data Analysis (EDA): Descriptive statistics and summary analysis, Data visualization using libraries like Matplotlib, Seaborn, and Plotly, Uncovering relationships and patterns in data through statistical analysis. Data Visualization and Reporting: Creating visualizations using libraries like Matplotlib, Seaborn, Plotly, and others, Designing meaningful and impactful data visualizations, Constructing interactive dashboards and reports. Machine Learning and Predictive Analytics: Supervised learning algorithms (classification, regression, ensemble methods, etc.), Unsupervised learning techniques (clustering, dimensionality reduction, etc.), Model evaluation, selection, and tuning, Applying machine learning models for prediction and forecasting.',
+  },
+  {
+    id: 6,
+    image: trainingWebinar6,
+    content:
+      "Python is a widely-used, high-level programming language known for its simplicity, readability, and versatility. It has gained tremendous popularity in various fields, including data science, web development, and automation. This training proposal aims to provide a comprehensive program for individuals interested in learning Python from scratch. The training will cover essential concepts, syntax, and practical applications, enabling participants to develop a strong foundation in Python programming. This is a 5-day training workshop conducted virtually between July 17 - 21, 2023 with the theme: Python from Scratch: Application and Applicability. The aims of this training include: Familiarizing participants with the fundamentals of Python programming; enable participants to write efficient and clean Python code; introduce participants to Python libraries and frameworks commonly used in different domains; provide hands-on experience through coding exercises and projects, and equip participants with the skills to solve real-world problems using Python.",
+  },
+  {
+    id: 7,
+    image: trainingWebinar7,
+    content:
+      "A day training on 'A TASTE OF EXCEL CAPABILITY' conducted virtually on 16th July, 2023 between 7:00pm and 9:30pm Nigerian time. Excel, developed by Microsoft, is a powerful software widely recognized for its versatility and immense utility in various fields. Whether you're a student, professional, researcher, entrepreneur, or simply someone seeking to organize and analyze data efficiently, Excel stands as an indispensable tool. In this training, we dive deeper into the background, importance, and exciting applications of Excel, providing a glimpse of its remarkable capabilities.",
+  },
+  {
+    id: 8,
+    image: trainingWebinar8,
+    content:
+      "A fully sponsored physical training workshop with a grant from the R Consortium was conducted in collaboration with Leapworld Limited, Allien Avenue, Lagos between 29th March and 1st April, 2022 within the time range of 10:00am and 4:00pm West African Time. The theme of the training was DATA SCIENCE AND MACHINE LEARNING WITH R PROGRAMMING LANGUAGE.",
+  },
+  {
+    id: 9,
+    image: trainingWebinar9,
+    content:
+      "Data Science and Machine Learning using R Syntax was the title of the physical training workshop conducted at UNILAG Consult Complex, University of Lagos, Nigeria between December 6th and 10th, 2021 spanning 10:00am and 4:00pm Nigerian time. The training covered the following topics: Linear Algebra Review - Detailed Linear Regression Model with One Variable; Detailed Linear Regression Model with Multiple Variables - Logistic Regression Model with real-life Applications; Dimensionality Reduction with real-life Situations - Neural Network: Representation and Applications; Neural Network: Learning and Training - Machine Learning System Design with R Codes; and Support Vector Machines with industrial Applications - Unsupervised Learning with R Syntax.",
   },
 ];

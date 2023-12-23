@@ -21,6 +21,9 @@ export default {
           200: "#8A8A8A",
           300: "#3e3e3e",
         },
+        blue: {
+          DEFAULT: "#0000FF",
+        },
       },
       fontFamily: {
         crimson: ["Crimson Pro", "serif"],

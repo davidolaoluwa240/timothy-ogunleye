@@ -12,3 +12,6 @@ export * from "./services-base/services-base.component";
 export * from "./services-base/services-list/services-list.component";
 export * from "./services-base/services-item/services-item.component";
 export * from "./publication-base/publication-base.component";
+export * from "./selected-training-webinar-base/selected-training-webinar-base.component";
+export * from "./selected-training-webinar-base/selected-training-webinar-list/selected-training-webinar-list.component";
+export * from "./selected-training-webinar-base/selected-training-webinar-item/selected-training-webinar-item.component";

@@ -19,8 +19,11 @@ export const AboutBase = () => {
     <SectionGroup heading="About">
       <div className="px-[0.625rem]">
         <Image
-          className="object-cover w-[313px] h-[396px]"
-          classNames={{ wrapper: "!max-w-full float-left mr-[0.625rem]" }}
+          className="object-cover w-[600px] sm:w-[313px] h-[300px] sm:h-[396px]"
+          classNames={{
+            wrapper:
+              "!max-w-full sm:float-left sm:mr-[0.625rem] mb-[0.625rem] sm:mb-0",
+          }}
           radius="none"
           src={aboutTimothy.image}
           alt="Timothy Ogunleye"

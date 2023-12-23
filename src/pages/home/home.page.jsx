@@ -21,7 +21,7 @@ export const Home = () => {
       <ProfessionalExperienceBase />
       <MembershipProfessionalBodyBase />
       <ServicesBase />
-      <PublicationBase />
+      {/* <PublicationBase /> */}
       <ResearchInterestBase />
       <GrantReceivedBase />
       <ParticipatedConductedTrainingBase />

@@ -6,7 +6,7 @@ export const SelectedTrainingWebinarItem = ({ id, image, content }) => {
     <Card>
       <CardHeader>
         <Image
-          className="w-[700px] h-[357px] object-cover"
+          className="w-[800px] h-[250px] sm:h-[357px] object-cover"
           classNames={{ wrapper: "!max-w-full" }}
           src={image}
           alt={`training/webinar ${id}`}

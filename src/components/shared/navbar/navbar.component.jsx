@@ -1,5 +1,5 @@
 // Hooks
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useStaticData } from "../../../hooks";
 
@@ -30,6 +30,11 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { pathname } = useLocation();
   const { NAVBAR_ITEMS: navbarItems } = useStaticData();
+
+  useEffect(() => {
+    // Close Mobile Screen Menu When User Change Location Path
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   // Rendered Navbar Items
   const renderedNavbarItems = navbarItems.map(({ id, name, items, to }) => (
@@ -120,7 +125,7 @@ export const Navbar = () => {
   return (
     <NextUINavbar
       className="bg-primary"
-      classNames={{ wrapper: "p-4 lg:p-6 max-w-[1408px]" }}
+      classNames={{ wrapper: "p-2 lg:p-6 max-w-[1408px]" }}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
     >

@@ -10,7 +10,7 @@ export const SelectedTrainingWebinarList = ({ items }) => {
   );
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 gap-2">
       {renderedSelectedTrainingWebinarItems}
     </div>
   );

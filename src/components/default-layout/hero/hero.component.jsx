@@ -18,7 +18,8 @@ export const Hero = () => {
     <SwiperSlide key={id}>
       <Image
         radius="none"
-        className="w-[300px] h-[250px] object-cover"
+        className="w-[400px] h-[250px] object-cover"
+        classNames={{ wrapper: "!max-w-full" }}
         src={image}
         alt={`Gallery Images ${id}`}
       />
@@ -27,16 +28,33 @@ export const Hero = () => {
 
   return (
     <Swiper
-      className="max-w-[1408px]"
+      className="px-2 lg:px-6 max-w-[1408px] mx-auto"
       modules={[Autoplay]}
+      slidesPerView={1}
+      spaceBetween={0}
       loop
-      slidesPerView={6}
       autoplay={{
         disableOnInteraction: false,
         delay: 1000,
-        waitForTransition: true,
       }}
       speed={1500}
+      breakpoints={{
+        400: {
+          slidesPerView: 1.5,
+        },
+        640: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 4,
+        },
+        1280: {
+          slidesPerView: 6,
+        },
+      }}
     >
       {renderedHeroItems}
     </Swiper>

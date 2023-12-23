@@ -6,9 +6,8 @@ export const YoutubeEmbedItem = ({ src, title }) => {
       src={src}
       title={title}
       frameBorder="0"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
+      allowFullScreen
     />
   );
 };

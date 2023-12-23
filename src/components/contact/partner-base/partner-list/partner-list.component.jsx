@@ -8,7 +8,7 @@ export const PartnerList = ({ items }) => {
   ));
 
   return (
-    <div className="grid grid-cols-3 gap-8 items-center justify-between py-[0.625rem] pb-[0.625rem]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-center justify-between px-[0.625rem] pb-[0.625rem]">
       {renderedPartnerItems}
     </div>
   );

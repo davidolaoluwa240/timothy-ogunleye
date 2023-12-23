@@ -10,21 +10,23 @@ import {
   ServicesBase,
   PublicationBase,
   SelectedTrainingWebinarBase,
+  WelcomeAddressBase,
 } from "../../components";
 
 export const Home = () => {
   return (
     <div className="flex flex-col gap-6">
-      <SelectedTrainingWebinarBase />
-      <ProfessionalServiceBase />
+      <WelcomeAddressBase />
       <JobProfileBase />
       <ProfessionalExperienceBase />
       <MembershipProfessionalBodyBase />
       <ServicesBase />
-      {/* <PublicationBase /> */}
       <ResearchInterestBase />
       <GrantReceivedBase />
+      <SelectedTrainingWebinarBase />
+      <ProfessionalServiceBase />
       <ParticipatedConductedTrainingBase />
+      <PublicationBase />
     </div>
   );
 };

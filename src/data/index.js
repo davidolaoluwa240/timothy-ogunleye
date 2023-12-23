@@ -96,6 +96,11 @@ export const NAVBAR_ITEMS = [
         name: "Linkedin",
         to: "https://www.linkedin.com/in/timothy-ogunleye/",
       },
+      {
+        id: 4,
+        name: "Orcid",
+        to: "https://orcid.org/0000-0002-2782-382X",
+      },
     ],
   },
   {
@@ -773,13 +778,13 @@ export const PARTICIPATED_CONDUCTED_TRAINING_ITEMS = [
 
 // Grant received Items
 export const GRANT_RECEIVED_ITEMS = [
-  "R Users Group Support (RUG) Grant offered by R Consortium ($150) - Sept. 2020",
-  "R Users Group Support (RUG) Grant offered by R Consortium ($200) - April 2021",
-  "Applied Statistics with R Training Grant offered by IASC-ISI ($1,000)	- April 2021",
-  "Data Science Training Grant offered by R Consortium ($1,000)	- July 2021",
-  "Grant for Research Software Workshop by SRSE (1,000 Euro) - Aug. 2021",
-  "Time Series Econometrics with R: Training Grant offered by R Studio ($1,000) - Aug. 2021",
-  "Workshop grant for data science and machine learning using Python ($5,000) - Oct. 2021",
+  "R Users Group Support (RUG) Grant offered by R Consortium - Sept. 2020",
+  "R Users Group Support (RUG) Grant offered by R Consortium - April 2021",
+  "Applied Statistics with R Training Grant offered by IASC-ISI	- April 2021",
+  "Data Science Training Grant offered by R Consortium	- July 2021",
+  "Grant for Research Software Workshop by SRSE - Aug. 2021",
+  "Time Series Econometrics with R: Training Grant offered by R Studio - Aug. 2021",
+  "Workshop grant for data science and machine learning using Python - Oct. 2021",
   "Workshop grant for data science and machine learning using R across Africa - Jan. 2022",
   "Workshop Grant received from the Society of Research Software Engineers - Nov. 2022",
 ];
@@ -835,12 +840,13 @@ export const SERVICES_ITEMS = [
   },
 ];
 
+// Publication Items
 export const PUBLICATION_ITEMS = [
   {
     id: 1,
     name: "Chapters in Books:",
     items: [
-      'Ogunleye, T.A. & Bamidele, A.P. (2021): Are Northern and Southern Regions equally affected by COVID-19? An empirical evidence from Nigeria. A book chapter on "Data Science for COVID-19: Societal and Medical Perspectives" published by Elsevier and edited by Dr Utku Kose (Suleyman Damire University, Turkey); Dr Deepak Gupta (Maharaja Agrasen Institute of Technology, India); Dr Victor Hugo C. de Albuquerque (University of Fortaleza, Brazil); and Dr Ashish Khanna (Maharaja Agrasen Institute of Technology, India). Chapter 32, Vol. 2(1), Pages 631 – 645 (https://www.sciencedirect.com/science/article/pii/B9780323907699000050).',
+      'Ogunleye, T.A. & Bamidele, A.P. (2021): Are Northern and Southern Regions equally affected by COVID-19? An empirical evidence from Nigeria. A book chapter on "Data Science for COVID-19: Societal and Medical Perspectives" published by Elsevier and edited by Dr Utku Kose (Suleyman Damire University, Turkey); Dr Deepak Gupta (Maharaja Agrasen Institute of Technology, India); Dr Victor Hugo C. de Albuquerque (University of Fortaleza, Brazil); and Dr Ashish Khanna (Maharaja Agrasen Institute of Technology, India). Chapter 32, Vol. 2(1), Pages 631 – 645.(http://tinyurl.com/3ncdur72)',
     ],
   },
   {

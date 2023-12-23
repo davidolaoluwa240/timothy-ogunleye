@@ -29,8 +29,8 @@ export const DefaultLayout = () => {
         </main>
 
         <aside className="flex flex-col gap-6 xl:sticky top-0 row-start-3 md:row-start-2 md:col-start-2 md:col-end-3 xl:col-start-3 xl:col-end-3 xl:row-start-1">
-          <YoutubeEmbed />
           <PastEventPicture />
+          <YoutubeEmbed />
           <PastEvent />
           <FutureEvent />
         </aside>

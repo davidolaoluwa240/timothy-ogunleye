@@ -131,7 +131,7 @@ export const Navbar = () => {
     >
       <NavbarBrand>
         <Link to="/">
-          <h6 className="text-2xl font-black navbar-brand">Timothy Ogunleye</h6>
+          <h6 className="text-2xl font-black navbar-brand">Timothy A. OGUNLEYE</h6>
         </Link>
       </NavbarBrand>
 

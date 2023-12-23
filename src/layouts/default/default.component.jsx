@@ -24,7 +24,7 @@ export const DefaultLayout = () => {
           <InternationalEngagement />
         </aside>
 
-        <main>
+        <main className="sticky top-0">
           <Outlet />
         </main>
 

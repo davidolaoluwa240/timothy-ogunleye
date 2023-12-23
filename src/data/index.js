@@ -480,3 +480,384 @@ export const PARTNER_ITEMS = [
     image: partner15,
   },
 ];
+
+// Professional Service Items
+export const PROFESSIONAL_SERVICE_ITEMS = [
+  {
+    id: 1,
+    title: "Data Analysis and Visualization Services",
+    description:
+      "Offering data analysis and visualization services to organizations and individuals, helping them derive actionable insights from their data using tools like R, Python, and various statistical packages.",
+  },
+  {
+    id: 2,
+    title: "Statistical Modeling and Consulting",
+    description:
+      "Providing statistical modeling and consulting services for businesses, research institutions, or government agencies needing expert guidance in econometrics, sample surveys, biostatistics, bioinformatics, and morphometrics.",
+  },
+  {
+    id: 3,
+    title: "Database Management and Training",
+    description:
+      "Delivering database management services, including imparting knowledge on data management software programs and conducting training and capacity-building activities on databases, with a focus on SQL integration.",
+  },
+  {
+    id: 4,
+    title: "Report Writing and Communication",
+    description:
+      "Providing expertise in report writing, analysis, and effective communication of research findings, enabling both technical and non-technical audiences to understand complex data insights derived from R, Python, and SQL analyses.",
+  },
+  {
+    id: 5,
+    title: "Project Management and Leadership",
+    description:
+      "Offering project management services, including high-volume workflow management, prioritization, and leadership in data-driven initiatives within organizations.",
+  },
+  {
+    id: 6,
+    title: "Survey Design and Data Collection",
+    description:
+      "Providing services related to survey design, data collection, and comprehensive analysis using R, Python and SQL, offering insights to drive decision-making within organizations.",
+  },
+  {
+    id: 7,
+    title: "Training and Capacity Building",
+    description:
+      "Conducting training and capacity-building activities tailored to the needs of organizations or educational programs, particularly in the areas of database management and statistical analysis.",
+  },
+];
+
+// Job Profile Items
+export const JOB_PROFILE_ITEMS = [
+  {
+    id: 1,
+    title: "Academic Staff Member",
+    org: "Osun State University, Osogbo, Nigeria",
+    date: "May 2022 - Till Date",
+  },
+  {
+    id: 2,
+    title: "Academic Staff Member",
+    org: "Augustine University, Ilara-Epe, Lagos State, Nigeria",
+    date: "Sep 2016 - Mar 2020",
+  },
+  {
+    id: 3,
+    title: "E-Tutor",
+    org: "Centre for Open and Distance Learning, University of Ilorin, Kwara State, Nigeria",
+    date: "Jan 2021 - Till Date",
+  },
+  {
+    id: 4,
+    title: "Executive Director",
+    org: "Tim-R Programming Consult, Nigeria",
+    date: "Apr 2020 - Apr 2022",
+  },
+  {
+    id: 5,
+    title: "Promotion from Higher Stat. Officer to Principal Statistician",
+    org: "Local Government Service Commission, Osun State, Nigeria",
+    date: "Mar 2006 - Aug 2016",
+  },
+];
+
+// Professional Experience Items
+export const PROFESSIONAL_EXPERIENCE_ITEMS = [
+  {
+    id: 1,
+    title: "Secretary General",
+    org: "International Association for Statistical Computing - African Members Group (IASC-AMG)",
+    date: "Apr 2020 - Till Date",
+  },
+  {
+    id: 2,
+    title: "Resource Person (R Prog. Consultant)",
+    org: "National Insurance Commission (NAICOM) through Nigerian Statistical Association, Nigeria",
+    date: "12th Oct 2020 - 16th Oct 2020",
+  },
+  {
+    id: 3,
+    title: "R Programmer for M&E Training",
+    org: "Norwegian Research and Training Institute, Nairobi, Kenya",
+    date: "Sep 2020 - Aug 2021",
+  },
+  {
+    id: 4,
+    title: "Monitoring and Evaluation Consultant",
+    org: "Society for Life Changers and Good Parental Care (SoLife), Osogbo, Osun State, Nigeria",
+    date: "Oct 2019 - Jan 2020",
+  },
+  {
+    id: 5,
+    title: "Monitoring, Evaluation, and Learning Consultant",
+    org: "Hope for Family Development Initiative (HFDI), Osogbo, Osun State, Nigeria",
+    date: "Apr 2018 - Jul 2018",
+  },
+  {
+    id: 6,
+    title: "Epidemiology and Health Consultant",
+    org: "IPAS Health Organization, Lagos State, Nigeria",
+    date: "Feb 2016 - Jul 2016",
+  },
+  {
+    id: 7,
+    title: "National Consultant on M&E",
+    org: "UNDP (with the supervision from UNODC) – EU Project (NGAX41), Abuja, Nigeria",
+    date: "May 2015 - Dec 2015",
+  },
+  {
+    id: 8,
+    title: "Data and Strategic Planning Consultant",
+    org: "International Development Organization, Lagos, Nigeria.",
+    date: "Jul 2013 - Aug 2014",
+  },
+  {
+    id: 9,
+    title: "Senior Data Analyst (Consultancy)",
+    org: "Talent Management Strategy, Ilorin Office, Kwara State, Nigeria.",
+    date: "Jun 2009 - Nov 2011",
+  },
+];
+
+// Membership Professional Body Items
+export const MEMBERSHIP_PROFESSIONAL_BODY_ITEMS = [
+  {
+    id: 1,
+    title: "Science Association of Nigeria - 2014",
+  },
+  {
+    id: 2,
+    title: "Member, Nigerian Statistical Association - 2016",
+  },
+  {
+    id: 3,
+    title: "Member, Nigerian Association of Mathematical Physics - 2019",
+  },
+  {
+    id: 4,
+    title: "International Association for Statistical Computing - 2021",
+  },
+  {
+    id: 5,
+    title: "International Statistical Institute (ISI) - 2021",
+  },
+  {
+    id: 6,
+    title: "Society of Research Software Engineer - 2021",
+  },
+  {
+    id: 7,
+    title: "R Epidemics Consortium – RECON - 2021",
+  },
+  {
+    id: 8,
+    title: "Coordinating Member, Osun R Users’ Group - 2021",
+  },
+];
+
+// Participated Conducted Training Items
+export const PARTICIPATED_CONDUCTED_TRAINING_ITEMS = [
+  {
+    id: 1,
+    title: "Facilitator",
+    content:
+      "A 5-day professional diploma certification training in Data Science with R Language jointly organized by Tim-R Programming Consult, Nigeria and the University of Lagos, Nigeria held between 23rd and 27th August, 2021 at the UNILAG Consult building.",
+  },
+  {
+    id: 2,
+    title: "Facilitator",
+    content:
+      "A 2-day (totaling 16 hours) Capacity Building Workshop to Research Officers on Research Development and Reporting, Statistical Analysis and Monitoring and Evaluation organized by Action against Trafficking in Persons and Smuggling of Migrants (A-TIPSOM) Nigeria funded by the European Union (EU) with support from FIIAPP held at Reiz Continental Hotel, Central Business District, Abuja, Nigeria between 18th and 19th May, 2021.",
+  },
+  {
+    id: 3,
+    title: "Facilitator",
+    content:
+      "A physical symposium on Applied Statistics with R Syntax organized by the International Association for Statistical Computing (IASC) African Members Group (free of charge) for some selected members of the public held at Nasarawa State University, Keffi, Nasarawa, Nigeria under the sponsorship of the IASC and ISI between 7th and 8th April, 2021.",
+  },
+  {
+    id: 4,
+    title: "Facilitator",
+    content:
+      "A full practical short course on Application of R and Python Programming Languages for Reporting organized by Datanovation Consultancy Services, Nigeria for some members of staff of the National Insurance Commission (NAICOM) held at Digital Bridge Institute (DBI), Cappa-Oshodi, Lagos between 14th and 18th December, 2020.",
+  },
+  {
+    id: 5,
+    title: "Facilitator",
+    content:
+      "The 34th NAS-PRS workshop tagged Computation of Insurance, Regulatory Ratios using R Programming Language organized by the Nigerian Statistical Association for some members of staff of the National Insurance Commission (NAICOM) held at Digital Bridge Institute (DBI), Cappa-Oshodi, Lagos between 14th and 16th October, 2020.",
+  },
+  {
+    id: 6,
+    title: "Facilitator",
+    content:
+      "An online training tagged Training Services on Impact Evaluation, Data Management and Analysis using SPSS and R Syntax organized by Norwegian Research and Training Institute, Nairobi, Kenya between 1st September, 2020 and 30th August, 2021 (Still continues as online facilitation: Part-time Programmer for Monitoring and Evaluation).",
+  },
+  {
+    id: 7,
+    title: "Facilitator",
+    content:
+      "A week training workshop for the selected enumerators for Radio Sampling Survey organized by Hope for Family Development Initiative (HFDI) – A Non-Governmental Organization situated in Osogbo, Osun State - held in Osun and Kwara States between 15th and 19th February, 2016.",
+  },
+  {
+    id: 8,
+    title: "Facilitator",
+    content:
+      "A Training of Trainers (ToT) workshop for some selected senior members of staff of National Agency for the Prohibition of Trafficking in Persons and other related matters (NAPTIP) held at the agency's headquarters in Abuja between 23rd – 27th November, 2015, with the aim of setting up M&E Unit within the agency under the sponsorship of European Union (EU) with supervision from UNODC.",
+  },
+  {
+    id: 9,
+    title: "Facilitator",
+    content:
+      "A week training workshop (Basic Training for Developing Template) organized for some selected members of staff of National Agency for the Prohibition of Trafficking in Persons and other related matters (NAPTIP) held at the agency's headquarters in Abuja between 30th November and 4th December, 2015, with the aim of setting up M&E Unit within the agency under the sponsorship of European Union (EU) with supervision from UNODC.",
+  },
+  {
+    id: 10,
+    content:
+      "An online webinar workshop organized by the Department of Statistics, Government Holkar (Model, Autonomous) Science College, India between 21st and 22nd June, 2020 on the topic: Concept and Applications of Statistical Methods in Research.",
+  },
+  {
+    id: 11,
+    content:
+      'Staff Enrichment Workshop on "Consolidating efforts for excellence in AUI" held on Tuesday 24th and Friday 27th September, 2019 with full sponsorship from the Management of Augustine University Ilara-Epe, Lagos State, Nigeria.',
+  },
+  {
+    id: 12,
+    content:
+      'A Special Training Workshop organized by Royal Statistical Society (Nigeria Local Group) in collaboration with Department of Statistics, Federal University of Agriculture, Abeokuta and Nigerian Statistical Association, Ogun State Chapter, and funded by International Association of Survey Statisticians entitled "Survey Process Design" on 16th January, 2019.',
+  },
+  {
+    id: 13,
+    content:
+      'Staff Enrichment Workshop on "Creating a High-Performance Culture" held on Monday 24th – Thursday 27th September, 2018 with full sponsorship from the Management of Augustine University Ilara-Epe, Lagos State, Nigeria.',
+  },
+  {
+    id: 14,
+    content:
+      "A workshop titled 'Roles of a Monitoring and Evaluation Officer in an Organization' delivered by Dr James Rhode at the training organized by IPAS Health Organization, Lagos between 8th and 10th February, 2016.",
+  },
+  {
+    id: 15,
+    content:
+      "An orientation workshop for Senior Officers transferring to the newly established Department of Budget, Planning, Research and Statistics in the Local Government Service of Osun State held between Tuesday, 20th January and Thursday, 22nd January, 2009 in conjunction with Fidaret Consults.",
+  },
+  {
+    id: 16,
+    content:
+      "A workshop titled 'Developing Entrepreneurial Skills for Post-Retirement Engagement' organized by the Local Government Service Commission, Osun State in conjunction with Fola Associates held between 10th May and 12th May, 2009.",
+  },
+  {
+    id: 17,
+    content:
+      "A workshop titled 'Effective Budgeting for accelerated Development at the grassroots' organized by the Local Government Service Commission, Osun State in conjunction with Fidaret Consults held between 19th July and 21st July, 2009.",
+  },
+];
+
+// Grant received Items
+export const GRANT_RECEIVED_ITEMS = [
+  "R Users Group Support (RUG) Grant offered by R Consortium ($150) - Sept. 2020",
+  "R Users Group Support (RUG) Grant offered by R Consortium ($200) - April 2021",
+  "Applied Statistics with R Training Grant offered by IASC-ISI ($1,000)	- April 2021",
+  "Data Science Training Grant offered by R Consortium ($1,000)	- July 2021",
+  "Grant for Research Software Workshop by SRSE (1,000 Euro) - Aug. 2021",
+  "Time Series Econometrics with R: Training Grant offered by R Studio ($1,000) - Aug. 2021",
+  "Workshop grant for data science and machine learning using Python ($5,000) - Oct. 2021",
+  "Workshop grant for data science and machine learning using R across Africa - Jan. 2022",
+  "Workshop Grant received from the Society of Research Software Engineers - Nov. 2022",
+];
+
+// Research Interest Items
+export const RESEARCH_INTEREST_ITEMS = [
+  "Computational Statistics",
+  "Data Science and Machine Learning ",
+  "Statistical Modelling and Econometrics",
+  "Biostatistics and Epidemiology ",
+  "Psychometrics and Morphometrics",
+  "Statistical Inference and Distribution Theory",
+  "Applied Statistics and Experimental Designs",
+  "Robotic Intelligence ",
+];
+
+// Services Items
+export const SERVICES_ITEMS = [
+  {
+    id: 1,
+    name: "University",
+    items: [
+      "100 Level Course Adviser, Department of Statistics, Osun State  University, Osogbo, Nigeria – 2021/2022 Academic Session.",
+      "200 Level Course Adviser, Department of Statistics, Osun State  University, Osogbo, Nigeria – 2022/2023 Academic Session.",
+      "Departmental Board Secretary, Department of Statistics, Osun State University, Osogbo, Nigeria between 2021/2022 and 2022/2023 Academic Sessions.",
+    ],
+  },
+  {
+    id: 2,
+    name: "Community",
+    items: [
+      "General Secretary, NASS, Federal Polytechnic, Ede Chapter between 2003 and 2004",
+      "Vice Chairman, Igbonna Youth Club (IYC), Osogbo, Osun State between 2008 and 2011",
+      "Welfare Officer, CDA at Michael Otedola Housing Estate, Epe, Lagos between 2018 and 2020",
+      "Chairman, Development Committee, C&S Solution Ministry, Osogbo	between 2021 – Till date",
+    ],
+  },
+  {
+    id: 3,
+    name: "National",
+    items: [
+      "National Youth Service, Ondo East Local Government Area, Ondo State, Nigeria between the years 2005 and 2006 respectively.",
+      "Served as a coordinator and trainer for a number of online classes (webinars) on the use of R and Python software for data science and machine learning organized by Osun R Users’ Group, Nigeria (free of charge) since 2017 – Till date",
+    ],
+  },
+  {
+    id: 4,
+    name: "International",
+    items: [
+      "Secretary-General, International Association for Statistical Computing (IASC), African Members Group between 2020 – Till date",
+      "2023 Conference Committee Member, Society of Research Software Engineers – 2023 (https://rsecon23.society-rse.org/conference-committee/)",
+    ],
+  },
+];
+
+export const PUBLICATION_ITEMS = [
+  {
+    id: 1,
+    name: "Chapters in Books:",
+    items: [
+      'Ogunleye, T.A. & Bamidele, A.P. (2021): Are Northern and Southern Regions equally affected by COVID-19? An empirical evidence from Nigeria. A book chapter on "Data Science for COVID-19: Societal and Medical Perspectives" published by Elsevier and edited by Dr Utku Kose (Suleyman Damire University, Turkey); Dr Deepak Gupta (Maharaja Agrasen Institute of Technology, India); Dr Victor Hugo C. de Albuquerque (University of Fortaleza, Brazil); and Dr Ashish Khanna (Maharaja Agrasen Institute of Technology, India). Chapter 32, Vol. 2(1), Pages 631 – 645 (https://www.sciencedirect.com/science/article/pii/B9780323907699000050).',
+    ],
+  },
+  {
+    id: 2,
+    name: "Articles in Learned Journals:",
+    items: [
+      "Ogunleye, T.A.; Adesanya, K.K.; Akinsola, O.J.; and Wilcox, G.I. (2022). Cross-sectional analysis 	of methods of computing partial correlation coefficients: A self-explained note with R syntax. Journal of Cross-cultural Communications, Vol. 18(1): 18 – 31.",
+      "Ogunleye, T.A.; Alanamu, T.; Ailobhio, D.T.; and Afolabi, N.O. (2021). On curtailing the spread of SARS-COV-2 pandemic among religious followers in Nigeria: An empirical study. Journal of 	Cross-cultural Communications, 17(2). [https://cscanada.net]",
+      "Ajayi, A.A.; Salubi, A.E.; Lawal, B.; Onobokun, A.E.; Ajayi, O.M. and Ogunleye, T.A. (2018). Optimization of Pectinase Production by Aspergillus niger using Central Composite Design. African Journal of Clinical and Experimental Microbiology, 19(4): 314-319. (https://dx.doi.org/10.4314/ajcem.v19i4.10).",
+      "Adeyemo, F., Ilori, M., Bamire, A., Ajiboshin, I. and Ogunleye, T. (2017a). 'Dependence of 	Entrepreneurship Support Services on Institutional Organizations in South-Western Nigeria'. Caleb Journal of Social and Management Sciences (CJSMS), Vol. 3(2), 76 – 91 [Publisher: Caleb University, Imota-Ikorodu, Lagos State].",
+      "Adeyemo, F.S., Ajiboshin, I.O. and Ogunleye, T.A. (2017b). 'Assessing the Effectiveness of 	Channels of Awareness Creation towards the Development of Technical Entrepreneurship in Nigeria'. Journal of Industrial Research and Technology (JIRT), Vol. 6(1), 75 – 89 [Publisher: Federal Institute of Industrial Research, Oshodi - FIIRO].",
+      "Ojo, T.O., Ogunleye, T.A., Olawuwo, S., and Adeleke, M.O. (2014a). Experimental Design Analysis on the Efficiency of Grain Yields of Cowpea Varieties in the three Senatorial Zones of Osun State, Nigeria. International Organization of Scientific Research – Journal of Mathematics (IOSR-JM), Vol. 9(6): 52-60.",
+      "Olawuwo, S., Ogunleye, T.A., Ojo, T.O. and Adejumo, A.O. (2014b). 'Comparison of Classical 	Least Squares (CLS), Ridge and Principal Component Methods of Regression Analysis using Gynaecological Data'.IOSR-JM, Vol. 9(6):61 – 74 [Publisher: International Organization of Scientific Research – Journal of Mathematics].",
+      "Ogunleye, T.A., Olaleye, M.O. and Solomon, A.Z. (2014c). 'Econometric Modeling of Commercial Banks' Expenditure on Sources of Profit Maximization in Nigeria'.Scholars Journal of Economics, Business and Management, Vol. 1(7):276 – 290 [Publisher: Scholars Journal of Economics, Business and Management].",
+      "Ogunleye, T.A., Fadare, J.A. and Adejumo, A.O. (2014d). 'Budgetary Resource Allocation and Organizational Survival Strategies: A Revised Simplex Algorithm'.Scholars Journal of Economics, Business and Management, Vol. 1(7):304 – 309 [Publisher: Scholars Journal of Economics, Business and Management].",
+      "Olawuwo, S., Ogunleye, T.A. and Olaleye, M.O. (2013). Economic Analysis and Modelling of Local Governments’ Monthly Expenditure on Income in the South West Zone of Nigeria. International Journal of Research and Review in Applied Sciences (IJRRAS), Vol. 17(2): 200-206.",
+    ],
+  },
+  {
+    id: 3,
+    name: "Referenced Conference Proceedings:",
+    items: [
+      "Ogunleye, T.A. (2021). On determining the more affected region by the coronavirus disease:	Evidence from Nigeria's Perspective. An International Conference tagged International Hazar Scientific Research Conference – 2 held at Baku, Azerbaijan, Khazar University between 10th and 12th April, 2021. Page 320 of the Book of Abstract (https://www.izdas.org)",
+      "Ogunleye, T.A. (2021). Investigating the effect of heterogeneous error-variance in estimating linear dynamic panel data model. An International Conference tagged International Hazar Scientific Research Conference – 2 held at Baku, Azerbaijan, Khazar University between 10th and 	12th April, 2021. Page 341 of the Book of Abstract (https://www.izdas.org)",
+      'Ogunleye, T.A. (2020): The Study of Epidemiological Patterns of COVID-19 Pandemic: A Peculiarity from Nigeria. A paper (poster) presented at Vienna Institute of Demography,Wittgenstein Centre Conference 2020 with the theme "Demographic Aspects of the COVID-19 Pandemic and its Consequences" between 30th November and 1st December. Co-authored by Adesanya, K.K.; Salako, S.G.; Lawal-Sebioniga, M.Y.; Alade, A.F. & Bamidele, A.P.(https://www.oeaw.ac.at/vid/events/calendar/conferences/demographic-aspects-of-the-covid-19-pandemic-and-its-consequences/postersessions#c151380)',
+      "Ogunleye, T.A., Olaleye, M.O. & Solomon, A.Z. (2017). On Modelling of Commercial Banks' Expenditure on the Sources of Profit Maximization in Nigerian Banking Sector. Proceedings of the 	8th International Science, Technology, Education, Arts, Management &Social Sciences (iSTEAMS) Multidisciplinary Conference, Caleb University, Lagos State, Nigeria. Pp. 393 – 412.",
+      "Ogunleye, T.A. and Afolabi, S.O. (2014). 'On Economic Planning of Resources at the Grassroot Level vis-à-vis Distribution of Budgetary Provisions using Revised Simplex Method'. The 49th Annual Conference of Science Association of Nigeria (SAN) held at Faculty of Science, University of Ilorin, Nigeria between 27th April and 1st May with the theme: Exploiting Advancement in Science and Technology for National Security [Book of Abstract: Page 107].",
+    ],
+  },
+  {
+    id: 4,
+    name: "Un-referenced Conference Proceedings:",
+    items: [
+      'Ogunleye, T.A. (2020): The Fight against COVID-19 Pandemic in Nigeria: A situational analysis of the most affected zone. A paper presented at the 2nd African Symposium on Big Data Analytics and Machine Intelligence & 6th TYAN International Themantic Workshop held at the Federal University of Technology, Akure, Nigeria with the theme "Data Science for Solution-driven and Sustainable Response to current Developing World Challenge" between 3rd and 4th December.',
+      "Ogunleye, T.A. & Arowoogun, M. (2019): Empirical investigation of factors responsible forstudents' academic performance in private universities, South-West Nigeria. A paper presented at the 30th Colloquium of the Nigerian Association of Mathematical Physics held at Igbinedion University, Okada, Edo State, Nigeria between 5th and 8th November.",
+    ],
+  },
+];

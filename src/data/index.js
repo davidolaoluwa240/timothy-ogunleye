@@ -98,7 +98,7 @@ export const NAVBAR_ITEMS = [
       },
       {
         id: 4,
-        name: "Orcid",
+        name: "ORCID",
         to: "https://orcid.org/0000-0002-2782-382X",
       },
     ],
@@ -180,30 +180,30 @@ export const INTERNATIONAL_ENGAGEMENT_ITEMS = [
   {
     id: 1,
     title:
-      "A member of the Committee for the 7th Annual Conference for Research Engineering held at Swansea University, United Kingdom (UK) between 5th - 7th September, 2023",
-    to: "https://rsecon23.society-rse.org/conference-committee/",
-    tags: ["Member"],
-  },
-  {
-    id: 2,
-    title:
-      "An interview held with the R Consortium on spreading the gospel about R language across African continent on 13th December, 2021",
-    to: "https://www.r-consortium.org/blog/2021/12/13/osun-r-user-group-in-nigeria-talks-about-spreading-the-gospel-of-r-across-africa",
-    tags: ["Interview"],
-  },
-  {
-    id: 3,
-    title:
       "A webinar to be conducted by International Association for Statistical Computing (IASC) - African Members Group featuring Timothy A. OGUNLEYE on the topic: Optimal Pathways: A Comparative Study of Linear and Non-Linear Optimization Techniques using R Language on 26th January, 2024",
     to: "https://isi-web.org/webinar/iasc-optimal-pathways-comparative-study-linear-and-non-linear-optimization-techniques-using",
     tags: ["Webinar"],
   },
   {
-    id: 4,
+    id: 2,
     title:
-      "A Faculty member (International Instructor handling Data Science courses) at Osiri University, Nebraska, USA",
+      "International Engagement as E-tutor (Virtual Facilitator) for Data Science Courses slated for Masters Degree Programs: Data and Information Systems at Osiri University, Nebraska, United States of America.",
     to: "https://osiriuniversity.org/school-of-computer-science-and-information-systems/",
     tags: ["Member"],
+  },
+  {
+    id: 3,
+    title:
+      "A member of the Committee for the 7th Annual Conference for Research Engineering held at Swansea University, United Kingdom (UK) between 5th - 7th September, 2023",
+    to: "https://rsecon23.society-rse.org/conference-committee/",
+    tags: ["Member"],
+  },
+  {
+    id: 4,
+    title:
+      "An interview held with the R Consortium on spreading the gospel about R language across African continent on 13th December, 2021",
+    to: "https://www.r-consortium.org/blog/2021/12/13/osun-r-user-group-in-nigeria-talks-about-spreading-the-gospel-of-r-across-africa",
+    tags: ["Interview"],
   },
   {
     id: 5,
@@ -331,32 +331,32 @@ export const ABOUT_TIMOTHY = {
 export const EDUCATION_HISTORY_ITEMS = [
   {
     id: 1,
-    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - Ongoing",
-    degree: "Doctor of Philosophy in Statistics",
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria",
+    degree: "Doctor of Philosophy in Statistics - Ongoing",
     type: "PhD",
   },
   {
     id: 2,
-    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - 2014",
-    degree: "Master of Science in Statistics",
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria",
+    degree: "Master of Science in Statistics - 2014",
     type: "M.Sc.",
   },
   {
     id: 3,
-    university: "University of Ilorin, Ilorin, Kwara State, Nigeria - 2011",
-    degree: "Bachelor of Science in Statistics",
+    university: "University of Ilorin, Ilorin, Kwara State, Nigeria",
+    degree: "Bachelor of Science in Statistics - 2011",
     type: "B.Sc.",
   },
   {
     id: 4,
-    university: "Federal Polytechnic, Ede, Osun State, Nigeria - 2004",
-    degree: "Higher National Diploma in Statistics",
+    university: "Federal Polytechnic, Ede, Osun State, Nigeria",
+    degree: "Higher National Diploma in Statistics - 2004",
     type: "HND",
   },
   {
     id: 5,
-    university: "Federal Polytechnic, Ede, Osun State, Nigeria - 2001",
-    degree: "National Diploma in Statistics ",
+    university: "Federal Polytechnic, Ede, Osun State, Nigeria",
+    degree: "National Diploma in Statistics - 2001",
     type: "ND",
   },
   {
@@ -372,13 +372,14 @@ export const PROFESSIONAL_QUALIFICATION_HISTORY_ITEMS = [
   {
     id: 1,
     university: "Macquarie University, the City of Sydney, Australia",
-    degree: "Diploma Certificate in Data Science with R and Python",
+    degree: "Diploma Certificate in Data Science with R and Python - 2020",
     type: "EXECUTIVE DIPLOMA",
   },
   {
     id: 2,
     university: "University of Lagos, the City of Akoka, Nigeria",
-    degree: "Professional Diploma Certificate in Data Science Python",
+    degree:
+      "Professional Diploma Certificate in Data Science with Python - 2023",
     type: "PROFESSIONAL DIPLOMA",
   },
 ];

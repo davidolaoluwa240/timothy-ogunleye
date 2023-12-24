@@ -8,7 +8,7 @@ export const ContactList = ({ items }) => {
   ));
 
   return (
-    <ul className="flex flex-col gap-2 pb-[0.625rem] px-[0.625rem]">
+    <ul className="flex flex-col gap-4 pb-[0.625rem] px-[0.625rem]">
       {renderedContactItems}
     </ul>
   );

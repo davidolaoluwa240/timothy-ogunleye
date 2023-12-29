@@ -17,6 +17,24 @@ import heroGallery12 from "../assets/images/hero_gallery_12.svg";
 import heroGallery13 from "../assets/images/hero_gallery_13.svg";
 import heroGallery14 from "../assets/images/hero_gallery_14.svg";
 import heroGallery15 from "../assets/images/hero_gallery_15.svg";
+import heroGallery16 from "../assets/images/hero_gallery_16.svg";
+import heroGallery17 from "../assets/images/hero_gallery_17.svg";
+import heroGallery18 from "../assets/images/hero_gallery_18.svg";
+import heroGallery19 from "../assets/images/hero_gallery_19.svg";
+import heroGallery20 from "../assets/images/hero_gallery_20.svg";
+import heroGallery21 from "../assets/images/hero_gallery_21.svg";
+import heroGallery22 from "../assets/images/hero_gallery_22.svg";
+import heroGallery23 from "../assets/images/hero_gallery_23.svg";
+import heroGallery24 from "../assets/images/hero_gallery_24.svg";
+import heroGallery25 from "../assets/images/hero_gallery_25.svg";
+import heroGallery26 from "../assets/images/hero_gallery_26.svg";
+import heroGallery27 from "../assets/images/hero_gallery_27.svg";
+import heroGallery28 from "../assets/images/hero_gallery_28.svg";
+import heroGallery29 from "../assets/images/hero_gallery_29.svg";
+import heroGallery30 from "../assets/images/hero_gallery_30.svg";
+import heroGallery31 from "../assets/images/hero_gallery_31.svg";
+import heroGallery32 from "../assets/images/hero_gallery_32.svg";
+import heroGallery33 from "../assets/images/hero_gallery_33.svg";
 
 // ===========================================================================
 // ============================PAST EVENT IMAGES==============================
@@ -127,6 +145,24 @@ export const HERO_ITEMS = [
   { id: 13, image: heroGallery13 },
   { id: 14, image: heroGallery14 },
   { id: 15, image: heroGallery15 },
+  { id: 16, image: heroGallery16 },
+  { id: 17, image: heroGallery17 },
+  { id: 18, image: heroGallery18 },
+  { id: 19, image: heroGallery19 },
+  { id: 20, image: heroGallery20 },
+  { id: 21, image: heroGallery21 },
+  { id: 22, image: heroGallery22 },
+  { id: 23, image: heroGallery23 },
+  { id: 24, image: heroGallery24 },
+  { id: 25, image: heroGallery25 },
+  { id: 26, image: heroGallery26 },
+  { id: 27, image: heroGallery27 },
+  { id: 28, image: heroGallery28 },
+  { id: 29, image: heroGallery29 },
+  { id: 30, image: heroGallery30 },
+  { id: 31, image: heroGallery31 },
+  { id: 32, image: heroGallery32 },
+  { id: 33, image: heroGallery33 },
 ];
 
 // Software Skill Items
